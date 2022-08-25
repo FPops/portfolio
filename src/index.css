@@ -1,5 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +14,61 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base{
+  body{
+    @apply font-[Courier];
+  }
+  li{
+    @apply px-4;
+    @apply cursor-pointer
+  }
 }
+
+.content-div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:250px;
+}
+
+.content-div:hover{
+  background-image: linear-gradient(
+    to right,
+    rgba(112,157,255, 0.3),
+    hsla(242,74%,61%,0.5)
+  )!important;
+}
+
+.label {
+  @apply bg-slate-300;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 0 20px;
+  width: 50px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.ball {
+  background: #fff;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  transition: transform 0.15s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.checkbox:checked + .label {
+  background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
