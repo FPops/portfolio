@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8f09689c.css",
+    "main.js": "/portfolio/static/js/main.4c4b3a0b.js",
+    "static/media/advice.jpg": "/portfolio/static/media/advice.bd372577d35c4ff20a55.jpg",
+    "static/media/social.jpg": "/portfolio/static/media/social.c569d99995351fe5ebd3.jpg",
+    "static/media/dropdown.jpg": "/portfolio/static/media/dropdown.c54f50fe6ca494fe2e2f.jpg",
+    "static/media/profile.JPG": "/portfolio/static/media/profile.27fa876e4da98023cbf6.JPG",
+    "static/media/fpop_resume.pdf": "/portfolio/static/media/fpop_resume.f63514c409a8f5bdfedd.pdf",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/preview.jpg": "/portfolio/static/media/preview.682c08d45a6b1b9b34c1.jpg",
+    "static/media/order.jpg": "/portfolio/static/media/order.7bafc1721c18bd4df3ef.jpg",
+    "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/nft.jpg": "/portfolio/static/media/nft.cd4b19e115b8d0bedec7.jpg",
+    "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.8f09689c.css.map": "/portfolio/static/css/main.8f09689c.css.map",
+    "main.4c4b3a0b.js.map": "/portfolio/static/js/main.4c4b3a0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f09689c.css",
+    "static/js/main.4c4b3a0b.js"
+  ]
+}
