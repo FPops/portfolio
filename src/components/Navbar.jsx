@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaTwitter, FaInstagram } from 'react-icons/f
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
-import CV from '../assets/fpop_resume.pdf'
+import CV from '../assets/fpop_cv.pdf'
 
 
 
